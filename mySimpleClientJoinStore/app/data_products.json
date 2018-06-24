@@ -1,0 +1,14 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "title": "Coca-cola",
+      "kind" : "unhealthy"
+    },
+    {
+      "id": "2",
+      "title": "Fanta",
+      "kind" : "unhealthy"
+    }
+  ]
+}
