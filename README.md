@@ -28,3 +28,49 @@ cd mySimpleClientJoinStore
 npm install
 npm start
 ```
+
+## Publish the Android build using expo
+
+```
+exp build:android
+```
+
+## Check the status
+
+```
+exp build:status
+```
+
+## Get the URL
+
+Eventually "exp build:status" will generate an URL for you.
+
+## Setup the Android SDK classpath
+
+The following is my example in my Mac computer. Make sure you have the sdk installed on your computer and set the following directories accordingly.
+
+* export ANDROID_HOME=${HOME}/Library/Android/sdk
+* export PATH=${PATH}:${ANDROID_HOME}/tools
+* export PATH=${PATH}:${ANDROID_HOME}/platform-tools
+* export ANDROID_HOME
+
+Check if adb is working:
+
+```
+adb
+```
+
+Check if your device is connected to the USB:
+
+```
+adb devices
+```
+
+## Deploy in the devices
+
+Download the URL that was generated in the "Get the URL" step and:
+
+```
+adb install filename.APK
+
+```

@@ -1,5 +1,12 @@
 {
   "expo": {
-    "sdkVersion": "27.0.0"
+    "sdkVersion": "27.0.0",
+    "name": "An APK sample",
+    "icon": "./assets/icons/logo-128.png",
+    "version": "1.0.0",
+    "slug": "an-apk-sample",
+    "android": {
+      "package": "com.nettec.estoquemob"
+    }
   }
 }
