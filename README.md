@@ -1,4 +1,4 @@
-# This is part of the "Struggling with JavaScript" aka doc-js book
+# This is part of a work in progress entitled - The doc-js, a learning journey using JavaScript 
 
 * https://leanpub.com/doc-js
 * If you want to contribute to the book or join me as a coauthor pool, please get in contact mgalli at mgalli dot com subject "doc-js book"
